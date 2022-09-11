@@ -12,6 +12,10 @@
     margin: 0 auto;
 }
 
+h1 {
+    display: none;
+}
+
 header {
     background-color: #1E1C21;
     height: 80px;
@@ -43,7 +47,18 @@ header {
     scale: 1.1;
 }
 
-section {
+.barras {
+    display: none;
+}
+
+svg {
+    width: 30px;
+    fill: white;
+}
+
+/* ----------------------------------- Banner Principal-----------------------------------------------------*/
+
+.banner {
     background-image: url(/img/ImagemBanner.png);
     height: 600px;
     background-size: cover;
@@ -90,5 +105,65 @@ section {
 
 .texto_banner a:hover {
     color: black;
+
+}
+
+
+/* ----------------------------------- Game Sections ------------------------------------------------------*/
+
+.ofertas {
+    background-color: rgba(30, 28, 33, 1);
+    padding: 20px 0px;
+}
+
+h2 {
+    color: white;
+}
+
+.secao_jogos {
+    background-color: black;
+}
+
+.linha_jogos {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px 0px;
+}
+
+.secao_cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.card {
+    width: 215px;
+    margin: 20px;
+}
+
+/* ----------------------------------- Media ------------------------------------------------------*/
+
+@media screen and (max-width: 1100px) {
+    
+    .menu a {
+        font-size: 16px;
+    }
+
+    .logo {
+        width: 220px;
+        margin-right: 20px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .menu {
+        display: none;
+    }
+
+    .barras {
+        display: flex;
+    }
 
 }
