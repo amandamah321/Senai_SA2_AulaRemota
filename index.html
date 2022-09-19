@@ -13,14 +13,13 @@
     />
     <link rel="stylesheet" href="style.css" />
 
+    <script src="/script.js" defer></script>
+
     <!-- JavaScript Bundle with Popper -->
     <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+      src="https://kit.fontawesome.com/a38684daa8.js"
       crossorigin="anonymous"
-      defer
     ></script>
-
     <title>E-players</title>
   </head>
   <body>
@@ -37,13 +36,8 @@
           <a href="#">Resultados</a>
           <a href="#">Notícias</a>
         </nav>
-        <a onclick="mostrarMenu" class="barras" href=""
-          ><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
-            <!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
-            <path
-              d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"
-            />
-          </svg>
+        <a onclick="mostrarMenu()" class="barras" href="">
+          <i class="fa-solid fa-bars"></i>
         </a>
       </div>
     </header>
@@ -73,73 +67,134 @@
             <img src="/img/imagegirl.png" alt="imagem de uma menina" />
             <h3>Título do Jogo</h3>
             <p>Descrição do Jogo</p>
-            <p>Valor</p>
+            <p>R$ 100,00</p>
             <a href="#">Comprar</a>
           </div>
           <div class="card">
             <img src="/img/imagegirl.png" alt="imagem de uma menina" />
             <h3>Título do Jogo</h3>
             <p>Descrição do Jogo</p>
-            <p>Valor</p>
+            <p>R$ 100,00</p>
             <a href="#">Comprar</a>
           </div>
           <div class="card">
             <img src="/img/imagegirl.png" alt="imagem de uma menina" />
             <h3>Título do Jogo</h3>
             <p>Descrição do Jogo</p>
-            <p>Valor</p>
+            <p>R$ 100,00</p>
             <a href="#">Comprar</a>
           </div>
           <div class="card">
             <img src="/img/imagegirl.png" alt="imagem de uma menina" />
             <h3>Título do Jogo</h3>
             <p>Descrição do Jogo</p>
-            <p>Valor</p>
+            <p>R$ 100,00</p>
             <a href="#">Comprar</a>
           </div>
           <div class="card">
             <img src="/img/imagegirl.png" alt="imagem de uma menina" />
             <h3>Título do Jogo</h3>
             <p>Descrição do Jogo</p>
-            <p>Valor</p>
+            <p>R$ 100,00</p>
             <a href="#">Comprar</a>
           </div>
           <div class="card">
             <img src="/img/imagegirl.png" alt="imagem de uma menina" />
             <h3>Título do Jogo</h3>
             <p>Descrição do Jogo</p>
-            <p>Valor</p>
+            <p>R$ 100,00</p>
             <a href="#">Comprar</a>
           </div>
           <div class="card">
             <img src="/img/imagegirl.png" alt="imagem de uma menina" />
             <h3>Título do Jogo</h3>
             <p>Descrição do Jogo</p>
-            <p>Valor</p>
+            <p>R$ 100,00</p>
             <a href="#">Comprar</a>
           </div>
           <div class="card">
             <img src="/img/imagegirl.png" alt="imagem de uma menina" />
             <h3>Título do Jogo</h3>
             <p>Descrição do Jogo</p>
-            <p>Valor</p>
+            <p>R$ 100,00</p>
             <a href="#">Comprar</a>
           </div>
         </div>
       </div>
     </section>
 
-    <script>
-      let menu = document.getElementById('menu')
+    <section class="">
+      <div class="banner_bottom">
+        <div class="black_background">
+          <div class="alinhamento_banner_bottom container_grid">
+            <div class="text_banner_bottom">
+              <span>Como participar das ligas ?</span>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Quaerat soluta voluptatem illo magnam cupiditate ducimus
+                placeat, excepturi ex dolore dolor? Magnam magni sequi natus
+                reprehenderit sed omnis minima similique eligendi. Lorem ipsum
+                dolor sit amet consectetur adipisicing elit.
+                <br />
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Quibusdam qui ut, architecto ea voluptas alias soluta, eveniet
+                aspernatur mollitia sapiente beatae quam veniam nobis magni
+                tempora est in odit libero!
+              </p>
+            </div>
+            <img
+              class="banner_bottom_image"
+              src="/img/image_bottom.png"
+              alt="Imagem de um herói"
+            />
+          </div>
+          <p class="leia_mais container_grid"><a href="#">Leia mais...</a></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="container_grid rodape">
+        <div class="links_footer">
+          <div class="alinhamento_footer_links">
+            <h2>Links Úteis</h2>
+            <ul>
+              <li><a href="#">Regras de utilização</a></li>
+              <li><a href="#">Suporte</a></li>
+              <li><a href="#">Central de ajuda</a></li>
+              <li><a href="#">Contato</a></li>
+            </ul>
+          </div>
+          <div class="alinhamento_footer_links">
+            <h2>Páginas</h2>
+            <ul>
+              <li><a href="#">Inicio</a></li>
+              <li><a href="#">Campeonatos</a></li>
+              <li><a href="#">Resultados</a></li>
+              <li><a href="#">Notícias</a></li>
+              <li><a href="#">Login/Cadastro</a></li>
+            </ul>
+          </div>
+        </div>
+        <img class="logo" src="/img/e_playerslogo.png" alt="Logo do site E-players" />
+        <div class="info_contato">
+          <p>Faça parte do nosso clan, assine nosso newsletter!</p>
+          <form class="form" action="">
+              <input type="email" placeholder="E-mail" required/>
+              <button>Cadastrar</button>
+            </label>
+          </form>
+          <div class="siganos container_grid">
+            <h2>Siga-nos em: </h2>
+            <div class="siganos_link">
+              <a href="#"><img src="/img/instagram 1.png" alt="logo do instagram"></a>
+              <a href="#"><img src="/img/facebook 1.png" alt="logo fo facebook"></a>
+              <a href="#"><img src="/img/youtube.png" alt="logo do youtube"></a>
+            </div>
 
-      function mostrarMenu() {
-        if (window.getComputedStyle(menu).display != 'flex') {
-          menu.style.display = 'flex'
-        } else {
-          menu.style.display = 'none'
-        }
-        event.preventDefault()
-      }
-    </script>
+          </div>
+        </div>
+      </div>
+    </footer>
+
   </body>
 </html>
