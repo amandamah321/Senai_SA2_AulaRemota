@@ -61,9 +61,21 @@ header {
 /* ----------------------------------- Banner Principal-----------------------------------------------------*/
 
 .banner {
-    background-image: url(/img/ImagemBanner.png);
-    height: 600px;
+    
+    height: 550px;
     background-size: cover;
+}
+
+.banner_f1 {
+    background-image: url(/img/ImagemBanner.png);
+}
+
+.banner_tlou {
+    background-image: url(/img/Banner_tlou.png);
+}
+
+.banner_lol {
+    background-image: url(/img/Banner_lol.png);
 }
 
 .posicao_texto {

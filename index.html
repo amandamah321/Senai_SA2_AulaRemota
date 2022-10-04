@@ -13,7 +13,9 @@
     />
     <link rel="stylesheet" href="style.css" />
 
-    <script src="/script.js" defer></script>
+    <script src="/JS/jquery-3.6.1.js" defer></script>
+
+    <script src="/JS/script.js" defer></script>
 
     <!-- JavaScript Bundle with Popper -->
     <script
@@ -22,7 +24,7 @@
     ></script>
     <title>E-players</title>
   </head>
-  <body>
+  <body onload="renderizarProdutos()">
     <h1>Home - E-Players</h1>
     <header>
       <div class="container_grid cabecalho_alinhamento">
@@ -41,11 +43,11 @@
         </a>
       </div>
     </header>
-    <section class="banner">
+    <section class="banner banner_f1">
       <div class="container_grid posicao_texto">
         <div class="texto_banner">
           <span>Liga E-players</span>
-          <p>Maior de campeonatos online</p>
+          <p>Maior plataforma de campeonatos online</p>
           <a href="#">Inscreva-se</a>
         </div>
       </div>
@@ -62,7 +64,7 @@
     <section class="ofertas">
       <div class="container_grid">
         <h2>Ofertas</h2>
-        <div class="secao_cards">
+        <div id="secao_produtos" class="secao_cards">
           <div class="card">
             <img src="/img/imagegirl.png" alt="imagem de uma menina" />
             <h3>Título do Jogo</h3>
